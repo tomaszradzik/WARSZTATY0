@@ -1,0 +1,77 @@
+#bodys {
+	width: 800px; 
+	margin: 0 auto;
+	hihg: auto;
+	background: white;
+	}
+
+h2 {
+	font: 20px Helvetica;
+	margin-left: 20px;
+	}
+
+p {
+	font: 13px Helvetica;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	}	
+
+
+#naglowek {
+	font: 20px Helvetica;
+	margin-left: 30px;
+	margin-top: 10px;
+	}
+
+
+#menu {
+	font: 20px Helvetica
+	}
+	
+ul#menu li a {
+	color: black;		
+	text-decoration: none;
+	}
+
+ul#menu {
+	list-style: none;
+	}
+
+ul#menu li {
+	float: left; 
+	width: 180px;
+	border: 3px solid white;
+	background: silver;
+	font-weight: bold; 
+	text-align: center;
+	}
+	
+ul#menukontakt {
+	list-style: none;
+	}
+
+ul#menukontakt li {
+	float: left; 
+	margin-left: 20px;
+	}
+	
+ul#menuprojekty {
+	list-style: none;
+	}
+
+ul#menukontakt li {
+		margin-left: 20px;
+	}
+	
+.portfolio {
+	width: 130px; 
+	padding: 4px; 
+	background: silver; 
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	float: left; 
+	margin-left: 80px;
+	}
+
