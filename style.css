@@ -1,10 +1,17 @@
-#bodys {
+.bodys {
 	width: 800px; 
 	margin: 0 auto;
 	hihg: auto;
 	background: white;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	}
 
+.tlo {
+	background: #CCCC99;
+	}
+	
 h2 {
 	font: 20px Helvetica;
 	margin-left: 20px;
@@ -18,60 +25,68 @@ p {
 	}	
 
 
-#naglowek {
+.naglowek {
 	font: 20px Helvetica;
 	margin-left: 30px;
 	margin-top: 10px;
 	}
 
 
-#menu {
+.menu {
 	font: 20px Helvetica
 	}
 	
-ul#menu li a {
+ul.menu li a {
 	color: black;		
 	text-decoration: none;
 	}
 
-ul#menu {
+ul.menu {
 	list-style: none;
 	}
 
-ul#menu li {
+ul.menu li {
 	float: left; 
 	width: 180px;
 	border: 3px solid white;
-	background: silver;
+	background: #CCCC99;
 	font-weight: bold; 
 	text-align: center;
 	}
 	
-ul#menukontakt {
+ul.menukontakt {
 	list-style: none;
 	}
 
-ul#menukontakt li {
+ul.menukontakt li {
 	float: left; 
 	margin-left: 20px;
 	}
 	
-ul#menuprojekty {
+ul.menukontakt li {
+	margin-left: 20px;
+	}	
+	
+ul.menuprojekty {
 	list-style: none;
-	}
-
-ul#menukontakt li {
-		margin-left: 20px;
 	}
 	
 .portfolio {
-	width: 130px; 
+	width: 180px; 
+	high: 180px;
 	padding: 4px; 
-	background: silver; 
+	background: #CCCC99; 
 	text-align: center;
-	text-decoration: none;
 	font-weight: bold;
 	float: left; 
-	margin-left: 80px;
+	margin-left: 70px;
 	}
 
+.portfoliolink {
+	text-decoration: none; 
+	color: white;	
+	}
+
+.bodyport {
+	padding-bottom: 200px
+	}
